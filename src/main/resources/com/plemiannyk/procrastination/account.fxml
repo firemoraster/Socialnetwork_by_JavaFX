@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="953.0" maxWidth="1800.0" minHeight="950.0" minWidth="1280.0" prefHeight="953.0" prefWidth="1280.0" style="-fx-background-color: #e2737c;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.plemiannyk.procrastination.FXMLController">
+   <children>
+      <Label layoutX="99.0" layoutY="24.0" prefHeight="44.0" prefWidth="166.0" text="Sky Fall" textFill="WHITE">
+         <font>
+            <Font name="Script MT Bold" size="40.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="80.0" fitWidth="114.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/SFlogo.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <TextField layoutX="283.0" layoutY="32.0" prefHeight="38.0" prefWidth="240.0" promptText="🔍 find new friends" style="-fx-background-color: #E6E6FA; -fx-background-radius: 15;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Arial Rounded MT Bold" size="19.0" />
+         </font>
+      </TextField>
+      <AnchorPane layoutX="183.0" layoutY="230.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane layoutX="-183.0" layoutY="-137.0" prefHeight="963.0" prefWidth="1280.0" style="-fx-background-color: #fbbdc2;">
+               <children>
+                  <AnchorPane layoutX="284.0" layoutY="14.0" prefHeight="517.0" prefWidth="240.0" style="-fx-background-color: #e2737c; -fx-background-radius: 15;">
+                     <children>
+                        <Button layoutX="7.0" layoutY="291.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="225.0" style="-fx-background-color: #E6E6FA; -fx-border-radius: 150;" text="Redact profile " textFill="#a89595">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Button>
+                        <Button layoutX="17.0" layoutY="385.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="204.0" style="-fx-background-color: #E6E6FA;" text="Stories archive" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="17.0" layoutY="426.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="204.0" style="-fx-background-color: #E6E6FA;" text="Memories" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="17.0" layoutY="468.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="204.0" style="-fx-background-color: #E6E6FA;" text="Money transfers" textAlignment="JUSTIFY" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="264.0" fitWidth="217.0" layoutX="18.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/4a872e2c2e5ff93550cc2291428761c3.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="17.0" layoutY="343.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="204.0" style="-fx-background-color: #E6E6FA;" text="Page statistics" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="27.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/image_rb2.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="29.0" fitWidth="35.0" layoutX="24.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/geo.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="30.0" layoutX="30.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/RedPapka.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="35.0" layoutY="428.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/c07f0086-1309-4273-a4be-38734eea4f3a.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="30.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/263d3472-814e-44b8-8610-e787f87897ca.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="285.0" layoutY="548.0" prefHeight="150.0" prefWidth="240.0" style="-fx-background-color: #e2737c; -fx-background-radius: 15;">
+                     <children>
+                        <Label layoutX="12.0" prefHeight="44.0" prefWidth="166.0" text="Gifts: 194" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="85.0" fitWidth="86.0" layoutX="158.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/256__1_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="85.0" fitWidth="86.0" layoutX="83.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/256-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="85.0" fitWidth="86.0" layoutX="1.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/256__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="25.0" layoutY="14.0" prefHeight="627.0" prefWidth="240.0" style="-fx-background-color: #e2737c; -fx-background-radius: 15;">
+                     <children>
+                        <Button fx:id="Reg_button" layoutX="14.0" layoutY="16.0" mnemonicParsing="false" onAction="#Reg_initialization" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #008000; -fx-background-radius: 5;" text="My page" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="13.0" layoutY="55.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="News" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="13.0" layoutY="95.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="Message" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="13.0" layoutY="134.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="Calls" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="friends_button" layoutX="13.0" layoutY="172.0" mnemonicParsing="false" onAction="#friends_opener" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #008000; -fx-background-radius: 5;" text="Friends" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="13.0" layoutY="211.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="Fellowship" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="13.0" layoutY="251.0" mnemonicParsing="false" onAction="#openAudio" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #008000; -fx-background-radius: 5;" text="Music" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="14.0" layoutY="292.0" mnemonicParsing="false" onAction="#openVideo" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #008000; -fx-background-radius: 5;" text="Videos" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="13.0" layoutY="334.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="Photos" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="14.0" layoutY="375.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="Games" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="13.0" layoutY="500.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="Sky Fall Pay" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="13.0" layoutY="418.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="Saved files" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="14.0" layoutY="459.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="Bookmarks" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="14.0" layoutY="584.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="Recomendation" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="14.0" layoutY="541.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 5;" text="Announcement" textFill="#a89595">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="55.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="55.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE2.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="55.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE3.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="55.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE4.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="55.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE5.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="55.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE21.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="55.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE6.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="56.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE7.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="55.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE22.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="55.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE24.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="50.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE26.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="38.0" layoutY="544.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE8.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="31.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE23.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="52.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE25.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="48.0" layoutY="502.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/VE27.png" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                  <AnchorPane layoutX="542.0" layoutY="14.0" prefHeight="289.0" prefWidth="702.0" style="-fx-background-color: #e2737c; -fx-background-radius: 15;">
+                     <children>
+                        <Label layoutX="14.0" layoutY="7.0" prefHeight="44.0" prefWidth="166.0" text="Sywie-Ine" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="31.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="21.0" layoutY="42.0" prefHeight="44.0" prefWidth="651.0" text="Call me whatever you want, just be sure to add at the end - mine &lt;3" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="581.0" layoutY="7.0" prefHeight="44.0" prefWidth="102.0" text="online" textFill="PALETURQUOISE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="31.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="102.0" prefHeight="44.0" prefWidth="260.0" text="Date of birth: 04.11.1992" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="127.0" prefHeight="44.0" prefWidth="137.0" text="City: Seattle" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <AnchorPane layoutX="6.0" layoutY="206.0" prefHeight="15.0" prefWidth="689.0" style="-fx-background-color: #fbbdc2; -fx-background-radius: 15;" />
+                        <Label layoutX="63.0" layoutY="220.0" prefHeight="44.0" prefWidth="39.0" text="54" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="188.0" layoutY="220.0" prefHeight="44.0" prefWidth="39.0" text="113" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="344.0" layoutY="220.0" prefHeight="44.0" prefWidth="39.0" text="35" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="473.0" layoutY="220.0" prefHeight="44.0" prefWidth="39.0" text="15" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="591.0" layoutY="220.0" prefHeight="44.0" prefWidth="56.0" text="2193" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="245.0" prefHeight="44.0" prefWidth="84.0" text="friends" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="151.0" layoutY="245.0" prefHeight="44.0" prefWidth="125.0" text="subscribers" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="322.0" layoutY="245.0" prefHeight="44.0" prefWidth="84.0" text="photos" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="587.0" layoutY="243.0" prefHeight="44.0" prefWidth="84.0" text="music" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="460.0" layoutY="245.0" prefHeight="44.0" prefWidth="84.0" text="video" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="546.0" layoutY="323.0" prefHeight="209.0" prefWidth="697.0" style="-fx-background-color: #e2737c; -fx-background-radius: 15;">
+                     <children>
+                        <Label layoutX="311.0" layoutY="90.0" prefHeight="44.0" prefWidth="166.0" text="Add Photo" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="31.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="80.0" fitWidth="114.0" layoutX="193.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/V31.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="548.0" layoutY="550.0" prefHeight="57.0" prefWidth="697.0" style="-fx-background-color: #e2737c; -fx-background-radius: 15;">
+                     <children>
+                        <Label layoutX="22.0" layoutY="5.0" prefHeight="44.0" prefWidth="169.0" text="anything new ?" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="184.0" layoutY="5.0" prefHeight="44.0" prefWidth="137.0" text="Post it there !" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button layoutX="895.0" layoutY="29.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="182.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 15;" text="Settings" textFill="#a89595">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="Exit_button" layoutX="1096.0" layoutY="29.0" mnemonicParsing="false" onAction="#Exit" prefHeight="37.0" prefWidth="112.0" style="-fx-background-color: #008000; -fx-background-radius: 15;" text="Exit" textFill="#a89595">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="683.0" layoutY="29.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="193.0" style="-fx-background-color: #E6E6FA; -fx-background-radius: 15;" text="Need help ?" textFill="#a89595">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="693.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/8a3ccbd3-b920-47bb-8dc6-c4a194ef9a20-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="913.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/image_rb2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="1112.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/ccace950-8bc9-46fc-b091-ed71c6d685b0.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.plemiannyk.procrastination.ControllerAudio">
+    <children>
+        <Label fx:id="labelName" alignment="CENTER" prefHeight="80.0" prefWidth="600.0" style="-fx-border-radius: 50; -fx-background-color: C88CCD;" text="Audio Player">
+            <font>
+                <Font name="Bodoni MT Black Italic" size="50.0" />
+            </font>
+        </Label>
+        <ProgressBar prefHeight="18.0" prefWidth="609.0" progress="0.0" />
+        <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #260728;">
+            <children>
+                <Button mnemonicParsing="false" onAction="#playAction" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #9BB991; -fx-border-radius: 50px;" text="Play">
+                    <HBox.margin>
+                        <Insets bottom="20.0" left="5.0" right="20.0" top="20.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Times New Roman Bold" size="15.0" />
+                    </font>
+                    <contextMenu>
+                        <ContextMenu>
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#contextExit" text="Exit">
+                                    <accelerator>
+                                        <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                    </accelerator></MenuItem>
+                            </items>
+                        </ContextMenu>
+                    </contextMenu>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#pauseAction" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #FE0101;" text="Pause">
+                    <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Times New Roman Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#nextAction" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #9BB991;" text="Next">
+                    <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Times New Roman Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#previousAction" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #9BB991;" text="Previous">
+                    <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Times New Roman Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Slider fx:id="volumeSlider" prefHeight="14.0" prefWidth="112.0" style="-fx-background-color: #000100;" value="30.0">
+                    <HBox.margin>
+                        <Insets top="30.0" />
+                    </HBox.margin>
+                </Slider>
+                <Label fx:id="labelSlider" prefHeight="18.0" prefWidth="38.0">
+                    <HBox.margin>
+                        <Insets top="50.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Times New Roman Bold" size="15.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+    </children>
+</VBox>

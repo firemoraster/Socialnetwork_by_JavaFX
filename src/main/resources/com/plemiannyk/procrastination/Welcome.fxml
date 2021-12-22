@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="380.0" style="-fx-background-color: #e2737c;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.plemiannyk.procrastination.FXMLController">
+   <children>
+      <AnchorPane layoutY="129.0" prefHeight="381.0" prefWidth="380.0" style="-fx-background-color: #fbbdc2;">
+         <children>
+            <Button fx:id="Su_button" layoutX="116.0" layoutY="228.0" mnemonicParsing="false" onAction="#Reg_opener" prefHeight="32.0" prefWidth="140.0" style="-fx-background-color: #F08080;" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="Login_button" layoutX="73.0" layoutY="144.0" mnemonicParsing="false" onAction="#Login_logic" prefHeight="32.0" prefWidth="250.0" style="-fx-background-color: #F08080;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <AnchorPane layoutX="90.0" layoutY="341.0" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #e2737c;">
+               <children>
+                  <Text fill="WHITE" layoutX="52.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get the app." wrappingWidth="96.130859375">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="32.0" fitWidth="38.0" layoutX="13.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/AI.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="38.0" layoutX="154.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/GI.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button fx:id="Exit_button" layoutX="116.0" layoutY="280.0" mnemonicParsing="false" onAction="#Exit" prefHeight="32.0" prefWidth="140.0" style="-fx-background-color: #F08080;" text="Exit" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <AnchorPane layoutY="47.0" prefHeight="303.0" prefWidth="20.0" style="-fx-background-color: #e2737c;">
+               <children>
+                  <Text fill="WHITE" layoutX="4.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="w" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="5.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="e" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="t" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="h" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="i" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="n" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="k" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="7.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="y" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="o" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="u" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="r" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="t" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="7.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="h" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="7.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="e" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="7.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="b" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="7.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="e" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="7.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="s" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="7.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="t" wrappingWidth="20.0">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Label layoutX="201.0" layoutY="188.0" prefHeight="20.0" prefWidth="126.0" text="forgot password ?" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <PasswordField fx:id="Pass_field" layoutX="73.0" layoutY="105.0" prefHeight="25.0" prefWidth="250.0" promptText="Password" style="-fx-background-color: #E6E6FA;">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </PasswordField>
+            <CheckBox layoutX="73.0" layoutY="189.0" mnemonicParsing="false" text="remember me" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </CheckBox>
+            <TextField fx:id="Login_field" layoutX="73.0" layoutY="66.0" prefHeight="25.0" prefWidth="250.0" promptText="Login" style="-fx-background-color: #E6E6FA;">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <Button fx:id="Otherlabs_button" layoutX="122.0" layoutY="19.0" mnemonicParsing="false" onAction="#Otherlabs_opener" prefHeight="32.0" prefWidth="140.0" style="-fx-background-color: #F08080;" text="Other labs" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="80.0" fitWidth="114.0" layoutX="-25.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/SFlogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="117.0" prefHeight="44.0" prefWidth="166.0" text="Sky Fall" textFill="WHITE">
+         <font>
+            <Font name="Script MT Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="42.0" prefHeight="32.0" prefWidth="200.0" text="Social network " textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="78.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign up to see photos and vidios ᅠᅠᅠᅠᅠfrom your fiends." wrappingWidth="276.130859375">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
